@@ -1,12 +1,12 @@
 var destination = [{
-    Id: 0,
-    Text: 'São Paulo-SP'
+    id: 0,
+    destino: 'São Paulo-SP'
 }, {
-    Id: 1,
-    Text: 'Franca-SP'
+    id: 1,
+    destino: 'Franca-SP'
 }, {
-    Id: 2,
-    Text: 'Porto Alegre-RS'
+    id: 2,
+    destino: 'Porto Alegre-RS'
 }]
 
 module.exports = destination;
