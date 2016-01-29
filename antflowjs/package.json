@@ -1,0 +1,32 @@
+{
+  "name": "antflowjs",
+  "version": "0.0.1",
+  "description": "Versões criadas em diferentes tecnologias e plataformas da aplicação do curso de CSD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/emiyasaki/csd/src/ef1baf2157156f23bb7289255d1ea24bbccd0b3b/antflowjs/"
+  },
+  "keywords": [
+    "antflow",
+    "js",
+    "javascript",
+    "node"
+  ],
+  "author": "Edmilson Miyasaki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "wiredep": "^3.0.0"
+  }
+}
