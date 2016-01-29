@@ -2,6 +2,8 @@
 
 ## Versão em NodeJS do AntFlow.
 
+Utilize o editor de texto de sua preferência para visualizar o código. Existem boas opções como o [Sublime Text 3](http://www.sublimetext.com/) ou o [Notepad++](https://notepad-plus-plus.org/), ou IDEs mais simples como o [Visual Studio Code](https://code.visualstudio.com/) ou o [Brackets](http://brackets.io/).
+
 Para testar esta versão, é necessário instalar o [NodeJS](https://nodejs.org/). Com isto, o NPM também será instalado.
 
 Depois da instalação, através da linha de comando, vá até o diretório e digite `npm install` para que as dependências do projeto sejam instaladas.
