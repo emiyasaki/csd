@@ -1,4 +1,4 @@
-require('datejs');
+require('../node_modules/datejs/lib/date-pt-BR');
 
 var mulas = [
 	{
@@ -7,7 +7,7 @@ var mulas = [
 		idade: 30,
 		profissao: 'Aeromoça',
 		descricao: 'Lorem ipsum',
-		data: Date.today().addMonths(1),
+		data: Date.today().addMonths(1).toString('dd/MMM/yyyy'),
 		origem: 'Londres',
 		destino: 'São Paulo-SP'
 	},
@@ -17,7 +17,7 @@ var mulas = [
 		idade: 38,
 		profissao: 'Dona de casa',
 		descricao: 'Bla bla',
-		data: Date.today().addMonths(2),
+		data: Date.today().addMonths(2).toString('dd/MMM/yyyy'),
 		origem: 'Colonia',
 		destino: 'São Paulo-SP'
 	},
@@ -27,7 +27,7 @@ var mulas = [
 		idade: 24,
 		profissao: 'Garçonete',
 		descricao: 'bla bla bla',
-		data: Date.today().addDays(15),
+		data: Date.today().addDays(15).toString('dd/MMM/yyyy'),
 		origem: 'Nova Iorque',
 		destino: 'Franca-SP'
 	}
