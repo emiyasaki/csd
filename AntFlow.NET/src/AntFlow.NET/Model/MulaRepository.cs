@@ -15,7 +15,7 @@ namespace AntFlow.NET.Model
                 Idade = 30,
                 Profissao = "Aeromoça",
                 Descricao = "Lorem ipsum",
-                Data = new DateTime(),
+                Data = DateTime.Today.AddMonths(1),
                 Origem = "Londres",
                 Destino = "São Paulo-SP"
             },
@@ -26,7 +26,7 @@ namespace AntFlow.NET.Model
                 Idade= 38,
                 Profissao= "Dona de casa",
                 Descricao= "Bla bla",
-                Data= new DateTime().AddMonths(2),
+                Data= DateTime.Today.AddMonths(2),
                 Origem= "Colonia",
                 Destino= "São Paulo-SP"
             },
@@ -37,7 +37,7 @@ namespace AntFlow.NET.Model
                 Idade= 24,
                 Profissao= "Garçonete",
                 Descricao= "bla bla bla",
-                Data= new DateTime().AddDays(15),
+                Data= DateTime.Today.AddDays(15),
                 Origem= "Nova Iorque",
                 Destino= "Franca-SP"
             },
@@ -48,7 +48,7 @@ namespace AntFlow.NET.Model
                 Idade= 25,
                 Profissao= "Assistente de Marketing",
                 Descricao= "bla bla bla",
-                Data= new DateTime().AddDays(15),
+                Data= DateTime.Today.AddDays(15),
                 Origem= "Los Angeles",
                 Destino= "Porto Alegre-RS"
             }

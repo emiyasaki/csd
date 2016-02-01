@@ -9,6 +9,7 @@ using AntFlow.NET.Model;
 
 namespace AntFlow.NET.Controllers
 {
+    [Route("[controller]")]
     public class DestinationController : Controller
     {
         private IMulaRepository repo;
@@ -22,6 +23,13 @@ namespace AntFlow.NET.Controllers
         public IActionResult Index()
         {
             return View(repo.GetMulas());
+        }
+
+        [HttpGet("{dest}")]
+        public IActionResult Index(string dest)
+        {
+            var result = repo.GetMulasByDestination(dest);
+            return View(result);
         }
     }
 }
