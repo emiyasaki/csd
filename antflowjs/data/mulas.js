@@ -30,6 +30,16 @@ var mulas = [
 		data: Date.today().addDays(15).toString('dd/MM/yyyy'),
 		origem: 'Nova Iorque',
 		destino: 'Franca-SP'
+	},
+	{
+		id: 3,
+		nome: 'Camila',
+		idade: 25,
+		profissao: 'Assistente de Marketing',
+		descricao: 'bla bla bla',
+		data: Date.today().addDays(15).toString('dd/MM/yyyy'),
+		origem: 'Los Angeles',
+		destino: 'Porto Alegre-RS'
 	}
 ];
 
