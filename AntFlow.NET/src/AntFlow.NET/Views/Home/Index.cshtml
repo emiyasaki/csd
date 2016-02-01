@@ -1,0 +1,35 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "AntFlow.NET";
+}
+
+<div class="jumbotron">
+    <h1>Ant Flow</h1>
+    <p>Selecione o local de destino para ver as Mulas disponíveis</p>
+    <div class="btn-group">
+        <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Selecione o destino
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            @foreach (string dest in Model)
+            {
+                <li>
+                    <a href="/destination/@dest">@dest</a>
+                </li>
+
+            }
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-9 col-sm-6">
+        <h2>O modo mais fácil de trazer seus produtos importados</h2>
+        <p>
+            Ao invés de pagar as taxas abusivas cobradas na importação de produtos, você pode
+            solicitar que alguém traga algum produto quando estiver em viagem no exterior.
+        </p>
+        <p>Para tanto, basta procurar acima alguém cujo destino seja algum local próximo de você.</p>
+    </div>
+</div>
