@@ -29,6 +29,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
+            <a href="/logout" class="navbar-link navbar-text navbar-right">Olá, José Jedi Knight</a>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
                     <li>
@@ -37,9 +38,6 @@
                     <li>
                         <a href="#">Meu Perfil</a>
                     </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Olá, José Jedi Knight</a></li>
                 </ul>
             </div>
         </div>
@@ -52,7 +50,7 @@
                     <thead>
                         <tr>
                             <th>Nome</th>
-                            <th>Origem</th>
+                            <th class="hidden-xs">Origem</th>
                             <th>Destino</th>
                             <th>Data de chegada</th>
                         </tr>
@@ -61,7 +59,7 @@
                         <% for(var i=0; i<data.length; i++) { %>
                             <tr>
                                 <td><%=data[i].nome%></td>
-                                <td><%=data[i].origem%></td>
+                                <td class="hidden-xs"><%=data[i].origem%></td>
                                 <td><%=data[i].destino%></td>
                                 <td><%=data[i].data%></td>
                             </tr>
