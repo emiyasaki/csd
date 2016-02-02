@@ -52,7 +52,7 @@
                     <thead>
                         <tr>
                             <th>Nome</th>
-                            <th>Origem</th>
+                            <th class="hidden-xs">Origem</th>
                             <th>Destino</th>
                             <th>Data de chegada</th>
                         </tr>
@@ -61,7 +61,7 @@
                         <% for(var i=0; i<data.length; i++) { %>
                             <tr>
                                 <td><%=data[i].nome%></td>
-                                <td><%=data[i].origem%></td>
+                                <td class="hidden-xs"><%=data[i].origem%></td>
                                 <td><%=data[i].destino%></td>
                                 <td><%=data[i].data%></td>
                             </tr>
